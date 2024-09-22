@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@692&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Text", sans-serif;
+}
+
+body {
+    background: url(https://w.wallhaven.cc/full/gp/wallhaven-gpgyw3.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.171);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.forgotten p {
+    position: absolute;
+    width: 60%;
+    top: 250px;
+    left: 30px;
+    padding: 5px 10px;
+    text-align: left;
+    color: white;
+
+}
+
+.forgotten p a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+.forgotten a:hover {
+    color: rgb(212, 2, 2);
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+}
+
+.input-container input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.308);
+    border-radius: 5px;
+    outline: none;
+    padding: 15px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.input-container input::placeholder {
+    color: white;
+}
+
+.input-container img {
+    position: absolute;
+    right: 18px;
+    top: 15px;
+}
+
+button{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.308);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.308);
+    cursor: pointer;
+}
+
+button:hover {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.308);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.507);
+    cursor: pointer;
+}
+
+.cadastrar {
+    margin: 10px;
+    text-align: center;
+}
+
+.cadastrar a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+.cadastrar a:hover {
+    text-decoration: none;
+    color: rgb(212, 2, 2);
+    font-weight: bold;
+}
+
